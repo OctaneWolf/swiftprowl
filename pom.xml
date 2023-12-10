@@ -6,7 +6,7 @@
 
     <groupId>com.OctaneWolf</groupId>
     <artifactId>swiftProwl</artifactId>
-    <version>0.1.7</version>
+    <version>0.1.9</version>
     <packaging>jar</packaging>
     <name>swiftProwl</name>
     <description>ok</description>
@@ -215,6 +215,14 @@
         <profile>
             <id>build-jar-with-dependencies</id>
             <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/resources/opencvlib</directory>
+                        <includes>
+                            <include>opencv_java470.dll</include>
+                        </includes>
+                    </resource>
+                </resources>
                 <plugins>
                     <plugin>
                         <artifactId>maven-assembly-plugin</artifactId>

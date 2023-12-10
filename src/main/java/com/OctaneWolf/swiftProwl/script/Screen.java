@@ -17,6 +17,7 @@ import com.OctaneWolf.swiftProwl.support.devices.*;
 import com.OctaneWolf.swiftProwl.util.EventObserver;
 import com.OctaneWolf.swiftProwl.util.EventSubject;
 import com.OctaneWolf.swiftProwl.util.OverlayCapturePrompt;
+import com.OctaneWolf.swiftProwl.support.Commons;
 
 /**
  * A screen represents a physical monitor with its coordinates and size according to the global
@@ -104,9 +105,7 @@ public class Screen extends Region implements IScreen, EventObserver {
     }
     curID = primaryScreen;
     initScreen();
-    //System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
-    System.load(System.getenv("ProgramFiles")+"\\OctaneWolf\\shared-libs\\"+org.opencv.core.Core.NATIVE_LIBRARY_NAME+".dll");
-
+    Commons.loadOpenCV();
   }
 
   /**
