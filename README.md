@@ -1,6 +1,6 @@
 # SwiftProwl
 
-SwiftProwl is a cutting-edge Computer Vision-based Automated GUI Testing tool designed for maximum flexibility and seamless integration. Built on the robust SikuliX framework, SwiftProwl extends its capabilities, providing enhanced flexibility and out-of-the-box integration with Cucumber for behavior-driven development (BDD) testing.
+SwiftProwl is a cutting-edge Computer Vision-based Automated GUI Testing tool designed for maximum flexibility and seamless integration. Built on the robust [SikuliX framework](https://github.com/RaiMan/SikuliX1), SwiftProwl extends its capabilities, providing enhanced flexibility and out-of-the-box integration with Cucumber for behavior-driven development (BDD) testing.
 
 ## Features
 
@@ -88,6 +88,10 @@ SwiftProwl is licensed under the MIT License.
 ## Contact
 
 For any inquiries or support, please contact at eric.pereyra@octanewolf.com.
+
+## Acknowledgements
+
+[Raimund Hocke A.K.A. RaiMan](https://github.com/RaiMan/) for the awesome base and inspo for this project.
 
 ---
 
